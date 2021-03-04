@@ -26,45 +26,57 @@ header a {
 }
 
 nav {
-  display: flex;
+  color: white;
+  display: none;
   justify-content: space-around;
+  position: absolute;
   text-decoration: none;
   margin: 0;
   padding: 0;
+  width: 100%;
+  top: 0px;
+  flex-direction: column;
 }
 nav :nth-child(1) {
-  background-color: #e2dada;
   flex: 2;
 }
 nav :nth-child(2) {
-  background-color: #bbb5b5;
   flex: 2;
 }
 nav :nth-child(3) {
-  background-color: #a39d9d;
   flex: 2;
 }
 nav :nth-child(4) {
-  background-color: #8f8888;
   flex: 2;
 }
 nav :nth-child(5) {
-  background-color: #777171;
   flex: 2;
 }
 nav :nth-child(6) {
-  background-color: #666161;
   flex: 2;
+}
+
+nav:target {
+  display: flex;
+  height: 50%;
+  font-size: 2em;
+  justify-content: center;
+  background-color: rgba(167, 165, 165, 0.9);
+  color: white;
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: white;
   text-align: center;
 }
 
 a:visited {
   color: black;
+}
+
+a:hover {
+  background-color: rgba(255, 255, 255, 0.75);
 }
 
 img {
@@ -78,32 +90,24 @@ img {
   height: 100vh;
 }
 
-#navbar1:hover {
-  background-color: #bbb5b5;
-}
-
-#navbar2:hover {
-  background-color: #a39d9d;
-}
-
-#navbar3:hover {
-  background-color: #8f8888;
-}
-
-#navbar4:hover {
-  background-color: #777171;
-}
-
-#navbar5:hover {
-  background-color: #666161;
-}
-
-#navbar6:hover {
-  background-color: #444141;
-}
-
 #hamburgericon {
   width: 100%;
+}
+
+.navitem {
+  padding: 20px;
+}
+
+footer {
+  text-align: center;
+  height: 20%;
+}
+
+#backarrow {
+  height: 10%;
+  width: 10%;
+  top: 0;
+  right: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

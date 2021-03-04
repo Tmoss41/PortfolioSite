@@ -24,43 +24,53 @@ header{
     height: 50px;
 }
 nav{
-    display: flex;
+    color: white;
+    display: none;
     justify-content: space-around;
+    position: absolute;
     :nth-child(1){
-        background-color: rgb(226, 218, 218);
         flex: 2;
     }
     :nth-child(2){
-        background-color: rgb(187, 181, 181);
         flex:2;
     }
     :nth-child(3){
-        background-color: rgb(163, 157, 157);
         flex: 2;
     }
     :nth-child(4){
-        background-color: rgb(143, 136, 136);
         flex: 2;
     }
     :nth-child(5){
-        background-color: rgb(119, 113, 113);
         flex: 2;
     }
     :nth-child(6){
-        background-color: rgb(102, 97, 97);
         flex: 2;
     }
     text-decoration: none;
     margin: 0;
     padding: 0;
+    width: 100%;
+    top: 0px;
+    flex-direction: column;
+}
+nav:target{
+    display:flex;
+    height: 50%;
+    font-size: 2em;
+    justify-content: center;
+    background-color:rgba(167, 165, 165, 0.9);
+    color: white;
 }
 a{
     text-decoration: none;
-    color: black;
+    color: white;
     text-align: center;
 }
 a:visited{
     color: black;
+}
+a:hover{
+    background-color: rgba($color: #ffffff, $alpha: 0.75)
 }
     
 img{
@@ -72,24 +82,20 @@ img{
     background-color: black;
     height: 100vh;
 }
-#navbar1:hover{
-    background-color: rgb(187, 181, 181);
-}
-#navbar2:hover{
-    background-color: rgb(163, 157, 157);
-}
-#navbar3:hover{
-    background-color: rgb(143, 136, 136)
-}
-#navbar4:hover{
-    background-color: rgb(119, 113, 113);
-}
-#navbar5:hover{
-    background-color: rgb(102, 97, 97);
-}
-#navbar6:hover{
-    background-color: rgb(68, 65, 65);
-}
+
 #hamburgericon{
     width: 100%;
+}
+.navitem{
+    padding: 20px;
+}
+footer{
+    text-align: center; 
+    height: 20%;
+}
+#backarrow{
+    height: 10%;
+    width: 10%;
+    top: 0;
+    right: 0;
 }
