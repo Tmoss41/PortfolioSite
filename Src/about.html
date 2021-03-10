@@ -8,15 +8,25 @@
         <title>About Me</title>
         <link rel="stylesheet" href="global-style.css">
         <link rel="stylesheet" href="about-style.css">
+        <script type="text/javascript" src="java.js"></script>
     </head>
     <body id="about">
         <header>
-            <h1>About Me</h1>
+            <h1>Home</h1>
+            <img src="android-chrome-192x192.png" id="hamburger" onclick="hamburger()">
             <nav id="nav">
-                <a href="index.html"> <img src="android-chrome-192x192.png"></a>
-                <a href="about.html"><img src="Abouticon.png"></a>
-                <a href="blog.html"><img src="blogicoin.png"></a>
-                <a href="contact.html"><img src="contacticon.png"></a>
+                <div>
+                    <a href="index.html">Home</a>
+                </div>
+                <div>
+                    <a href="about.html">About</a>
+                </div>
+                <div>
+                    <a href="blog.html">Blog</a>
+                </div>
+                <div>
+                    <a href="contact.html">Contact</a>
+                </div>
             </nav>
         </header>
     <!-- Areas where the main content goes -->
@@ -42,15 +52,15 @@
                 <p>I graduated from Caloundra State High School in 2017, and deferred any universitty offers i received in favour for working. </p>
             </section>
             <section class="gridsection1">
-                <img src="sven-scheuermeier-4R1YpmGO52I-unsplash.jpg">
+                <img src="sven-scheuermeier-4R1YpmGO52I-unsplash.jpg" class="image">
                 <h3>Working at Woolworths</h3>
                 <p>During High School I worked as a Woolworths Produce Team Member as well as a few other departments
                 </p>
             </section>
             <section class="gridsection2">
-                <img src="hack-capital-uv5_bsypFUM-unsplash.jpg">
+                <img src="hack-capital-uv5_bsypFUM-unsplash.jpg" onclick="showtext()" id="image">
                 <h3>Working at Medical-Objects</h3>
-                <p>After working at Woolworths, I moved on to work for 2 years as a Helpdesk Technician for a medical software comapny. 
+                <p id="test" onclick="hidetext()">After working at Woolworths, I moved on to work for 2 years as a Helpdesk Technician for a medical software comapny. 
                     The work involved troubleshooting the software we provided as a service, a well as answering calls and diverting them to the correct department</p>
             </section>
             <a href="Tim's Resume.pdf"><p>Download My Resumee</p></a>

@@ -25,9 +25,6 @@
   margin-left: 10%;
 }
 
-div {
-  padding: 30px;
-}
 div ul {
   display: flex;
   flex-direction: column;

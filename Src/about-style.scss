@@ -29,37 +29,36 @@ main{
             height: 300px;
             opacity: 1;
         }
+        p{
+            display: none;
+        }
     }
   }
   .gridsection1, .gridsection2{
     display: flex;
     flex-direction: row;
-    p{
-       width: 100%;
-       height: 300px;
-       color:white;
-       text-align: center;
-       display: none;
-    }
     h3{
       display: none;
     }
   }
   // Text Overlay Feature on All of the Article Items, 
-  .gridsection1:hover , .gridsection2:hover{
-    img{
-        display: none;
-        transition: display 2s;
-        object-fit: contain;
-    }
-    p{
-         display: inline-block;
-         flex: 1;
-         text-align: center;
-         align-self: center;
-         font-size: 1em;
-    }
-    h3{
-      display: inline-block;
-    }
-  }
+//   .gridsection1:hover , .gridsection2:hover{
+//     img{
+//         display: none;
+//         transition: display 2s;
+//         object-fit: contain;
+//     }
+//     p{
+//          display: inline-block;
+//          flex: 1;
+//          text-align: center;
+//          align-self: center;
+//          font-size: 1em;
+//     }
+//     h3{
+//       display: inline-block;
+//     }
+//   }
+p{
+    display: none;
+}

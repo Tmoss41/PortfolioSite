@@ -32,36 +32,20 @@ main {
   height: 300px;
   opacity: 1;
 }
+.grid-container section p {
+  display: none;
+}
 
 .gridsection1, .gridsection2 {
   display: flex;
   flex-direction: row;
 }
-.gridsection1 p, .gridsection2 p {
-  width: 100%;
-  height: 300px;
-  color: white;
-  text-align: center;
-  display: none;
-}
 .gridsection1 h3, .gridsection2 h3 {
   display: none;
 }
 
-.gridsection1:hover img, .gridsection2:hover img {
+p {
   display: none;
-  transition: display 2s;
-  object-fit: contain;
-}
-.gridsection1:hover p, .gridsection2:hover p {
-  display: inline-block;
-  flex: 1;
-  text-align: center;
-  align-self: center;
-  font-size: 1em;
-}
-.gridsection1:hover h3, .gridsection2:hover h3 {
-  display: inline-block;
 }
 
 /*# sourceMappingURL=about-style.css.map */
