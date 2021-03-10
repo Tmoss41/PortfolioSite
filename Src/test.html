@@ -1,47 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-</head>
-<body>
-	<div id="hamburger-container">
-		<input type="checkbox" id="check">
-			<div id="content"></div>
-				<ul>
-					<a href="index.html"><li>Home</li></a>
-					<a href="about.html"><li>About</li></a>
-					<a href="work.html"><li>Work History</li></a>
-					<li>Blog</li>
-					<li>Contact</li>
-				</ul>
-			</div>
-		</input>
-	</div>
-		<style>
-			#hamburger-container{
-				color: pink;
-				background-color: white;
-			}
-			#check{
-				display: block;
-			}
-			#hamburger-container ul{
-				width: 100px;
-				height: 100px;
-				background-color: black;
-				display: none;
-			}
-			#check:checked + #hamburger-container{ 
-				content:'';
-				width: 100px;
-				height: 100px;
-				background-color: black;
-				color: blue;
-				display: block;
-			}
-		</style>
-</body>
-</html>
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="text.css">
+<script src="myscripts.js" type="text/javascript"></script>
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="#home" class="active">Logo</a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
