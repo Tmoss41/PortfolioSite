@@ -1,16 +1,11 @@
 main {
   color: white;
-  margin: 0 50px 0px 50px;
   height: vh;
   padding-left: 0;
   text-align: center;
 }
 main img {
   width: 100%;
-}
-
-main {
-  padding: 0px 0px 0px 0px;
 }
 
 .grid-container {
