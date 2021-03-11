@@ -5,6 +5,7 @@
 
 header {
   display: flex;
+  position: fixed;
   text-align: center;
   font-size: 2em;
   background-color: #e2dada;
@@ -28,7 +29,7 @@ header a {
 nav {
   color: white;
   display: none;
-  justify-content: space-around;
+  justify-content: space-evenly;
   position: absolute;
   text-decoration: none;
   margin: 0;
@@ -58,25 +59,25 @@ nav :nth-child(6) {
 
 nav:target {
   display: flex;
-  height: 50%;
   font-size: 2em;
-  justify-content: center;
-  background-color: rgba(167, 165, 165, 0.9);
+  justify-content: space-evenly;
   color: white;
+  background-color: red;
+  opacity: 1;
+}
+nav:target a {
+  opacity: 1;
 }
 
 a {
   text-decoration: none;
-  color: white;
-  text-align: center;
-}
-
-a:visited {
   color: black;
+  text-align: center;
+  font-family: "DotGothic16", sans-serif;
 }
 
 a:hover {
-  background-color: rgba(255, 255, 255, 0.75);
+  text-decoration: underline;
 }
 
 img {
@@ -104,10 +105,66 @@ footer {
 }
 
 #backarrow {
-  height: 10%;
-  width: 10%;
+  height: 7%;
+  width: 7%;
+  position: absolute;
   top: 0;
   right: 0;
+}
+
+.aboutarticle {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+  box-shadow: 2px 2px 2px 2px #dfdfdf93;
+}
+.aboutarticle img {
+  border-radius: 10px;
+}
+
+p {
+  padding: 10px;
+  text-align: center;
+}
+
+#articleitem2 {
+  flex-direction: row-reverse;
+}
+
+.workarticle {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: 100%;
+}
+.workarticle section {
+  display: flex;
+  flex-direction: column;
+}
+.workarticle section img {
+  box-shadow: 2px 2px 2px 2px #dfdfdf93;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.wart1 {
+  margin-top: 10px;
+}
+.wart1 p {
+  display: none;
+}
+
+.wart1:hover img {
+  opacity: 0.3;
+  transition: opacity 1s;
+}
+.wart1:hover p {
+  display: inline-block;
+  position: absolute;
+  top: 25%;
+  bottom: 25%;
+  left: 25%;
+  right: 25%;
 }
 
 /*# sourceMappingURL=style.css.map */
