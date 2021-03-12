@@ -29,7 +29,7 @@ function hamburger()
   if (x.style.opacity === "0") {
     y.style.transform = "rotate(90deg)";
     y.style.transition = "transform 750ms";
-    x.style.display = "flex"
+    x.style.display = "block"
     x.style.opacity = 1;
     x.style.transition = "opacity 750ms";
   } else {

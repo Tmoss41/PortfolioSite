@@ -21,9 +21,39 @@ main a {
   height: 50%;
 }
 
+div {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+}
+div button {
+  z-index: 2;
+  left: 25%;
+}
+
 header {
   margin-bottom: 50px;
   height: 100px;
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  main {
+    flex-direction: row;
+  }
+  main img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+  }
+
+  div {
+    display: flex;
+    justify-content: center;
+  }
+  div button {
+    z-index: 2;
+    left: 25%;
+  }
 }
 
 /*# sourceMappingURL=blogpost.css.map */
