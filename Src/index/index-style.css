@@ -32,8 +32,9 @@ main :nth-child(2) {
 }
 
 img {
-  width: 100%;
+  width: 60%;
   height: 100vh;
+  object-fit: cover;
 }
 
 h1 {

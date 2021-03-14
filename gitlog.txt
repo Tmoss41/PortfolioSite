@@ -1,0 +1,128 @@
+commit cf3eb95ff59b73d99935d077a0101b316164b9d2
+Author: Timothy Moss <tim@Timothys-MacBook-Pro.local>
+Date:   Sun Mar 14 15:08:01 2021 +1000
+
+    Fixing of Relative Path on Blopost.htmls
+
+commit 8c726a3177a40aa12d31d17e1b273ec2f61c6a5e
+Author: Timothy Moss <tim@Timothys-MacBook-Pro.local>
+Date:   Sun Mar 14 14:43:23 2021 +1000
+
+    SRI and HASH Creation
+
+commit 9229a451e888d519fe41e999021aa76a90618010
+Author: Timothy Moss <tim@Timothys-MacBook-Pro.local>
+Date:   Sun Mar 14 13:47:55 2021 +1000
+
+    Final Production Model
+
+commit 66a6f8e96f9607a9912059b0a433829e1082c088
+Author: Timothy Moss <tim@Timothys-MacBook-Pro.local>
+Date:   Sat Mar 13 13:59:23 2021 +1000
+
+    Navigation Bar Modifications and Additiions
+
+commit 9dc251ca07fbb0c4e6808cb7fe57aa1b604780a2
+Author: Timothy Moss <tim@Timothys-MBP.gateway>
+Date:   Sat Mar 13 00:51:53 2021 +1000
+
+    Responsive Layout Tablet updates
+
+commit 090157fe3e4a314e2249fa7e8108b42fc1d022be
+Author: Timothy Moss <tim@Timothys-MacBook-Pro.local>
+Date:   Fri Mar 12 01:07:39 2021 +1000
+
+    Folder Additions
+
+commit 98b4554f5de8acd5a672ce788f233345ab9cc5ca
+Merge: 7d8f704 f1a3465
+Author: Tmoss41 <79036739+Tmoss41@users.noreply.github.com>
+Date:   Fri Mar 12 00:52:45 2021 +1000
+
+    Merge pull request #1 from Tmoss41/navdesign1
+    
+    Mobile Design and Functionality Complete
+
+commit f1a3465f9ee323047a043afdcf193210a05267ab
+Author: Timothy Moss <tim@Timothys-MacBook-Pro.local>
+Date:   Fri Mar 12 00:44:41 2021 +1000
+
+    Folder Structure Clean up and Modification, Blog Post.html addition, Blog Page Completion
+
+commit 3e250b8c6824b743fe8379e638cf1a040b37049f
+Author: Timothy Moss <tim@Timothys-MacBook-Pro.local>
+Date:   Wed Mar 10 22:30:47 2021 +1000
+
+    Javascript creation and application
+
+commit 5009a02345f62f0e07962f43b72ec5b9be8d45eb
+Author: Timothy Moss <tim@Timothys-MacBook-Pro.local>
+Date:   Wed Mar 10 17:43:30 2021 +1000
+
+    Functionality and Design updates
+
+commit 24a41b521b92811948196be6f15731cc5212d9be
+Author: Timothy Moss <tim@Timothys-MacBook-Pro.local>
+Date:   Tue Mar 9 14:48:21 2021 +1000
+
+    Functionality and readability updates
+
+commit 3632a224e0ee7224c7eedd498334c1f980fbb04c
+Author: Timothy Moss <tim@Timothys-MacBook-Pro.local>
+Date:   Tue Mar 9 12:25:59 2021 +1000
+
+    Functionality Updates and Changes
+
+commit 815ed4f393ea1c0beb059425cb747345e223bd07
+Author: Timothy Moss <tim@Timothys-MacBook-Pro.local>
+Date:   Mon Mar 8 22:05:48 2021 +1000
+
+    Page Updates and Styling
+
+commit b5d3f8851a313e4cc511da15c61c5821bf48d424
+Author: Timothy Moss <tim@Timothys-MacBook-Pro.local>
+Date:   Mon Mar 8 20:26:04 2021 +1000
+
+    Navigation Bar Updated, Layout and Design of Pages Updated to be more stylised,Contact and Blog Pages created and started, Backup of Changes made on Index,Work and About Pages
+
+commit 58e53adfca44da330e8d8ec34dee3fe0a018cbef
+Author: Timothy Moss <tim@Timothys-MacBook-Pro.local>
+Date:   Sat Mar 6 02:16:15 2021 +1000
+
+    Text Overlay Addition on Work History Page
+
+commit dc7bb9a1504d5dc6c804c1a4265905d864a74bd9
+Author: Timothy Moss <tim@Timothys-MacBook-Pro.local>
+Date:   Fri Mar 5 11:35:37 2021 +1000
+
+    Navbar design change and new branch for rollback
+
+commit 7d8f704ab736f3a8cb4a6a616c0ccd40b4b57067
+Author: Timothy Moss <tim@Timothys-MacBook-Pro.local>
+Date:   Thu Mar 4 18:13:51 2021 +1000
+
+    Hamburger Icon Completed and Functional
+
+commit 329ee4ddac67a92347a57f1c7cb4970a4ddb64e0
+Author: Timothy Moss <tim@Timothys-MacBook-Pro.local>
+Date:   Thu Mar 4 17:27:32 2021 +1000
+
+    Index.html creation and Upload Mobile Sizing
+
+commit ba0a3b62e51c4d65fa88c0244fb4fe9e5a48c581
+Author: Timothy Moss <tim@Timothys-MacBook-Pro.local>
+Date:   Thu Mar 4 12:18:01 2021 +1000
+
+    Tablet Wireframe Creation and Upload
+
+commit 1a4bc8a17564b12fdf961c0931550d6b2e10eb80
+Author: Timothy Moss <tim@Timothys-MacBook-Pro.local>
+Date:   Wed Mar 3 18:37:39 2021 +1000
+
+    Mobile Wireframe Creation, Upload and Backup
+
+commit 24b3563b19b7907860ed4bdce0fdd4991fc09610
+Author: Tmoss41 <79036739+Tmoss41@users.noreply.github.com>
+Date:   Wed Mar 3 18:34:02 2021 +1000
+
+    Initial commit
